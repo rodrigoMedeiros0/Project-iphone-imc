@@ -19,14 +19,14 @@
         </div>
 
         <div class="content-bottom">
-            <input type="number" id="peso" placeholder="Peso (kg)">
             <input type="number" id="altura" placeholder="Altura (m)">
-            <button onclick="calculateIMC()">Calcular</button>
-            <button onclick="clear()">Limpar</button>
+            <input type="number" id="peso" placeholder="Peso (kg)">
+            <button onclick="calculateIMC()" class="calculate">Calcular</button>
+            <button onclick="reload()" class="clear">Limpar</button>
 
-             <p id="result-imc">Informe seus dados!</p>
-             <p id="value-imc"></p>
-
+            <p id="message-imc">Informe seus dados!</p> 
+            <p id="value-imc"></p>
+             
          </div>
      
         <div class="menu-iphone"></div>
