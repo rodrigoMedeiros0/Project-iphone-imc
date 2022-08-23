@@ -6,7 +6,7 @@
 
 # 🔨 Funcionalidades do projeto
 
-Projeto tem a função de calcular o Índice de Massa Corpórea (IMC) no iphone.
+Projeto tem a função de calcular o Índice de Massa Corporal (IMC) no iphone.
 
 ## 💻 Tecnologias 
 
