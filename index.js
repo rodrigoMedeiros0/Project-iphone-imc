@@ -17,10 +17,9 @@ function calculateIMC() {
         document.getElementById('message-imc').innerHTML = "Abaixo do peso";
     }
 
-    document.getElementById('value-imc').innerHTML = imc.toFixed(2);
+    document.getElementById('value-imc').innerHTML = "IMC: " + imc.toFixed(2);
 }
 
 function reload() {
-
     window.location.reload();
 }
