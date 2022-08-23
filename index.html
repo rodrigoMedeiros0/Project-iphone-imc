@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,27 +12,22 @@
     <div class="iphone-container">
 
         <div class="notch"></div>
-
         <div class="content-top">
             <h1>Calcule seu IMC</h1>
             <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
         </div>
 
         <div class="content-bottom">
+
             <input type="number" id="altura" placeholder="Altura (m)">
             <input type="number" id="peso" placeholder="Peso (kg)">
             <button onclick="calculateIMC()" class="calculate">Calcular</button>
             <button onclick="reload()" class="clear">Limpar</button>
 
-            <p id="message-imc">Informe seus dados!</p> 
-            <p id="value-imc"></p>
-             
+            <p id="message-imc"></p> 
+            <p id="value-imc" ></p>
          </div>
-     
         <div class="menu-iphone"></div>
-
-
-
     </div>
 
     <script src="index.js"></script>
